@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/ut"
+        android:layout_margin="40dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:background="#41f6427a"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Inscrir etudiant"
+                android:id="@+id/binscri_etud"
+                android:layout_marginLeft="300dp"
+                android:background="#ff41aaff"
+                android:layout_marginTop="20dp" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Listes des etudiants"
+                android:id="@+id/bliste"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="50dp"
+                android:background="#ff41aaff" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Chercher"
+                android:id="@+id/bcherche"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="50dp"
+                android:background="#ff41aaff" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Quitter"
+                android:id="@+id/bquit"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="50dp"
+                android:background="#ff41aaff" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
